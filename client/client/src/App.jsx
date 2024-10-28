@@ -1,7 +1,9 @@
 // import { useState } from 'react'
 
-import { Login } from "./components/login"
+// import { Login } from "./components/login"
 import Signup from "./components/Signup"
+// import NLogin from "./components/NLogin"
+
 
 
 
@@ -13,10 +15,10 @@ function App() {
 
   return (
     <>
-      <Login />
-      <br />
+      {/* <Login />
+      <br /> */}
       <Signup />
-        
+      {/* <NLogin /> */}
     </>
   )
 }

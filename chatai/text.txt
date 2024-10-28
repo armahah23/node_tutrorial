@@ -1,0 +1,8 @@
+
+
+create api key in google ai developer 
+
+
+npm init
+npm install @google/generative-ai
+npm i nodemon

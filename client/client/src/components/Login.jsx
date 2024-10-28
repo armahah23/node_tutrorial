@@ -13,7 +13,7 @@ fetch(`http://localhost:3000/login?username=${username}&password=${password}`)
 e.target.username.value = "";
 e.target.password.value = "";
 };
-
+ 
 return (
 <form onSubmit={handleLogin}>
 <input type="text" name="username" placeholder="Username"/>
